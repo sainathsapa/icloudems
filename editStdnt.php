@@ -38,7 +38,7 @@ if (isset($_POST['submit'])) {
 
 <body class="container">
     <div class="border container card">
-        <h2>Add Student</h2>
+        <h2>Edit Student</h2>
         <hr>
         <?php
         $getID = $_GET['id'];
@@ -124,7 +124,7 @@ if (isset($_POST['submit'])) {
                 </div>
             </div>
             <br>
-            <input class="btn btn-primary form-btn" type="submit" name="submit" value="Add" />
+            <input class="btn btn-primary form-btn" type="submit" name="submit" value="Edit" />
         </form>
 
 
